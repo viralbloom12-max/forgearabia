@@ -1,0 +1,14 @@
+{
+  "common": {
+    "brand": "Forge Arabia",
+    "cta": {
+      "getProposal": "Request a Proposal",
+      "talkToUs": "Talk to Us",
+      "whatsapp": "Chat on WhatsApp"
+    }
+  },
+  "foundation": {
+    "workingTitle": "Foundation ready",
+    "workingBody": "Bilingual routing and RTL support are live. The homepage is next."
+  }
+}
