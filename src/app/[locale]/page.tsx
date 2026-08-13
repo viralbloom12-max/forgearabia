@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, organizationLd, localBusinessLd } from "@/lib/seo";
+import { type Locale } from "@/i18n/routing";
+import { JsonLd } from "@/components/seo/json-ld";
 import { Hero } from "@/components/sections/hero";
 import { Trust } from "@/components/sections/trust";
 import { About } from "@/components/sections/about";
@@ -38,6 +40,7 @@ export default async function HomePage({
 
   return (
     <>
+      <JsonLd data={[organizationLd(), localBusinessLd(locale as Locale)]} />
       <Hero />
       <Trust />
       <About />

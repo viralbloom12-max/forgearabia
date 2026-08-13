@@ -33,6 +33,22 @@ export const metadata: Metadata = {
     shortcut: siteConfig.assets.favicon,
     apple: siteConfig.assets.favicon,
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  // Google Search Console verification, set only when the env var is present.
+  // No placeholder is emitted, so the site stays production ready.
+  verification: process.env.GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.GOOGLE_SITE_VERIFICATION }
+    : undefined,
 };
 
 export default async function LocaleLayout({
