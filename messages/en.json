@@ -245,7 +245,19 @@
     "overviewMetaDescription": "Website development, e-commerce, SEO, Google Ads, AI automation, branding, and UI/UX design for Saudi businesses, delivered in Arabic and English.",
     "overviewEyebrow": "Services",
     "overviewTitle": "Digital services built for Saudi businesses",
-    "overviewIntro": "Everything you need to build, launch, and grow online, delivered to a premium standard in Arabic and English."
+    "overviewIntro": "Everything you need to build, launch, and grow online, delivered to a premium standard in Arabic and English.",
+    "industriesTitle": "Industries we serve",
+    "industriesIntro": "We work with businesses across Saudi Arabia, from Riyadh and Qassim to the wider Kingdom."
+  },
+  "serviceIndustries": {
+    "websiteDevelopment": ["Restaurants", "Clinics", "Real estate", "Construction", "Retail", "Manufacturing"],
+    "ecommerceDevelopment": ["Fashion and apparel", "Beauty and cosmetics", "Food and grocery", "Electronics", "Home and furniture", "Retail brands"],
+    "seo": ["Local businesses", "E-commerce brands", "Professional services", "Healthcare", "Real estate"],
+    "digitalMarketing": ["Restaurants and cafes", "Retail and e-commerce", "Clinics", "Real estate", "Education", "Hospitality"],
+    "googleAds": ["E-commerce brands", "Clinics and medical", "Real estate", "Home services", "Professional services", "Automotive"],
+    "aiAutomation": ["Customer support teams", "E-commerce businesses", "Service companies", "Sales teams"],
+    "branding": ["Startups", "Restaurants and cafes", "Retail brands", "Clinics", "Real estate", "Professional services"],
+    "uiUx": ["Startups", "E-commerce platforms", "Mobile apps", "Healthcare platforms", "Fintech", "SaaS products"]
   },
   "serviceDetail": {
     "websiteDevelopment": {

@@ -73,6 +73,8 @@ export default async function ServiceDetailPage({
   const includes = t.raw("includes") as Item[];
   const benefits = t.raw("benefits") as Item[];
   const faqs = t.raw("faqs") as Faq[];
+  const ti = await getTranslations("serviceIndustries");
+  const industries = ti.raw(def.key) as string[];
   const path = `/services/${service}`;
   const related = services.filter((s) => s.slug !== service);
   const Icon = def.icon;
@@ -197,8 +199,31 @@ export default async function ServiceDetailPage({
         </StaggerGroup>
       </Section>
 
-      {/* FAQ */}
+      {/* Industries we serve */}
       <Section className="bg-navy-950/40 py-20">
+        <div className="max-w-2xl">
+          <Reveal>
+            <Eyebrow>{tc("industriesTitle")}</Eyebrow>
+          </Reveal>
+          <Reveal delay={0.05}>
+            <p className="mt-5 text-base leading-relaxed text-silver-muted">
+              {tc("industriesIntro")}
+            </p>
+          </Reveal>
+        </div>
+        <StaggerGroup className="mt-8 flex flex-wrap gap-3">
+          {industries.map((name) => (
+            <StaggerItem key={name}>
+              <span className="glass inline-flex items-center rounded-full px-5 py-2.5 text-sm font-medium text-silver">
+                {name}
+              </span>
+            </StaggerItem>
+          ))}
+        </StaggerGroup>
+      </Section>
+
+      {/* FAQ */}
+      <Section className="py-20">
         <div className="mx-auto max-w-3xl">
           <Reveal className="text-center">
             <Eyebrow>{tc("faqTitle")}</Eyebrow>
