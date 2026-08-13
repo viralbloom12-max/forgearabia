@@ -27,29 +27,48 @@ export function buildMetadata({
   path,
   title,
   description,
+  image,
+  type = "website",
+  publishedTime,
+  modifiedTime,
+  languages,
 }: {
   locale: string;
   path: string;
   title: string;
   description: string;
+  image?: string;
+  type?: "website" | "article";
+  publishedTime?: string;
+  modifiedTime?: string;
+  /** Override hreflang alternates, e.g. only locales a post exists in. */
+  languages?: Record<string, string>;
 }): Metadata {
   const url = `${siteConfig.url}/${locale}${path}`;
+  const ogImage = `${siteConfig.url}${image ?? siteConfig.assets.growthCta}`;
+  const alternates = languages
+    ? { canonical: url, languages }
+    : localeAlternates(locale, path);
+
   return {
     title,
     description,
-    alternates: localeAlternates(locale, path),
+    alternates,
     openGraph: {
-      type: "website",
+      type,
       url,
       siteName: siteConfig.name,
       title: `${title} | ${siteConfig.name}`,
       description,
       locale: locale === "ar" ? "ar_SA" : "en_US",
+      images: [{ url: ogImage }],
+      ...(type === "article" ? { publishedTime, modifiedTime } : {}),
     },
     twitter: {
       card: "summary_large_image",
       title: `${title} | ${siteConfig.name}`,
       description,
+      images: [ogImage],
     },
   };
 }
@@ -174,6 +193,50 @@ export function serviceLd({
       url: siteConfig.url,
     },
     areaServed: { "@type": "Country", name: "Saudi Arabia" },
+  };
+}
+
+export function articleLd({
+  locale,
+  title,
+  description,
+  path,
+  datePublished,
+  dateModified,
+  author,
+  image,
+}: {
+  locale: Locale;
+  title: string;
+  description: string;
+  path: string;
+  datePublished: string;
+  dateModified?: string;
+  author: string;
+  image?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: title,
+    description,
+    inLanguage: locale,
+    url: `${siteConfig.url}/${locale}${path}`,
+    mainEntityOfPage: `${siteConfig.url}/${locale}${path}`,
+    datePublished,
+    dateModified: dateModified || datePublished,
+    image: image
+      ? `${siteConfig.url}${image}`
+      : `${siteConfig.url}${siteConfig.assets.growthCta}`,
+    author: { "@type": "Organization", name: author },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}${siteConfig.assets.logo}`,
+      },
+    },
   };
 }
 

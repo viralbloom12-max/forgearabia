@@ -19,6 +19,7 @@
     "services": "Services",
     "whyUs": "Why Us",
     "process": "Process",
+    "blog": "Blog",
     "contact": "Contact",
     "cta": "Start Your Project"
   },
@@ -921,6 +922,33 @@
   "legalNav": {
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
+  },
+  "blog": {
+    "blog": "Blog",
+    "metaTitle": "Blog",
+    "metaDescription": "Practical guides on web development, SEO, digital marketing, and AI automation for Saudi businesses, from the Forge Arabia team.",
+    "eyebrow": "Insights",
+    "title": "Ideas for growing your business online",
+    "intro": "Practical guides on technology, marketing, and AI for Saudi businesses, written by the Forge Arabia team.",
+    "readingTime": "{minutes} min read",
+    "by": "By {author}",
+    "published": "Published",
+    "updated": "Updated",
+    "relatedServices": "Related services",
+    "relatedLocations": "Related locations",
+    "backToBlog": "All articles",
+    "readMore": "Read article",
+    "emptyState": "New articles are on the way.",
+    "ctaTitle": "Want help putting this into practice?",
+    "ctaBody": "Tell us about your business and we will put together a clear plan and quote.",
+    "categories": {
+      "websiteDevelopment": "Website Development",
+      "seo": "SEO",
+      "digitalMarketing": "Digital Marketing",
+      "aiAutomation": "AI Automation",
+      "ecommerce": "E-Commerce",
+      "saudiGrowth": "Saudi Business Growth"
+    }
   },
   "footer": {
     "tagline": "A premium digital transformation partner based in Al Qassim, helping Saudi businesses grow through technology, marketing, and AI automation.",

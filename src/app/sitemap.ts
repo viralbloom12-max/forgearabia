@@ -4,6 +4,7 @@ import { locales } from "@/i18n/routing";
 import { services } from "@/config/services";
 import { locations } from "@/config/locations";
 import { industries } from "@/config/industries";
+import { getPostSlugs, getSlugLocales } from "@/lib/blog";
 
 type ChangeFreq = MetadataRoute.Sitemap[number]["changeFrequency"];
 
@@ -26,6 +27,7 @@ function routes(): RouteDef[] {
     { path: "/services", changeFrequency: "monthly", priority: 0.9 },
     { path: "/locations", changeFrequency: "monthly", priority: 0.9 },
     { path: "/industries", changeFrequency: "monthly", priority: 0.9 },
+    { path: "/blog", changeFrequency: "weekly", priority: 0.8 },
     { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.3 },
     { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
   ];
@@ -59,6 +61,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency: route.changeFrequency,
         priority: route.priority,
+        alternates: { languages },
+      });
+    }
+  }
+
+  // Blog posts: a post may not exist in every locale, so hreflang only lists
+  // the locales that actually have a translation.
+  const slugs = new Set<string>();
+  for (const l of locales) for (const s of getPostSlugs(l)) slugs.add(s);
+
+  for (const slug of slugs) {
+    const available = getSlugLocales(slug, locales);
+    const languages: Record<string, string> = {};
+    for (const l of available) {
+      languages[l] = `${siteConfig.url}/${l}/blog/${slug}`;
+    }
+    languages["x-default"] = `${siteConfig.url}/${available.includes("en") ? "en" : available[0]}/blog/${slug}`;
+
+    for (const locale of available) {
+      entries.push({
+        url: `${siteConfig.url}/${locale}/blog/${slug}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.7,
         alternates: { languages },
       });
     }

@@ -13,6 +13,6 @@ export const mainNav: NavItem[] = [
   { key: "about", href: "/about" },
   { key: "services", href: "/services" },
   { key: "whyUs", href: "/#why-us" },
-  { key: "process", href: "/#process" },
+  { key: "blog", href: "/blog" },
   { key: "contact", href: "/contact" },
 ];
