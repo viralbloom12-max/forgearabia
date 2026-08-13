@@ -39,6 +39,10 @@ const config: Config = {
       borderRadius: {
         "4xl": "2rem",
       },
+      spacing: {
+        "13": "3.25rem",
+        "18": "4.5rem",
+      },
       boxShadow: {
         // Restrained, elegant glow (not crypto/gaming)
         "glow-electric": "0 0 0 1px rgba(108,59,255,0.20), 0 12px 40px -12px rgba(108,59,255,0.35)",
@@ -62,11 +66,16 @@ const config: Config = {
           "0%, 100%": { backgroundPosition: "0% 50%" },
           "50%": { backgroundPosition: "100% 50%" },
         },
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "fade-up": "fade-up 0.6s ease-out both",
         "float-slow": "float-slow 6s ease-in-out infinite",
         "gradient-pan": "gradient-pan 8s ease infinite",
+        marquee: "marquee 32s linear infinite",
       },
     },
   },

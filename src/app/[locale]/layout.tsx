@@ -1,11 +1,14 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+import { setRequestLocale, getMessages } from "next-intl/server";
 import { routing, locales, localeDirection, type Locale } from "@/i18n/routing";
 import { siteConfig } from "@/config/site";
 import { fontSans, fontDisplay, fontArabic } from "../fonts";
 import { cn } from "@/lib/utils";
+import { Navbar } from "@/components/layout/navbar";
+import { Footer } from "@/components/layout/footer";
+import { WhatsAppButton } from "@/components/layout/whatsapp-button";
 import "@/styles/globals.css";
 
 export function generateStaticParams() {
@@ -46,6 +49,7 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
   const dir = localeDirection[locale as Locale];
+  const messages = await getMessages();
 
   return (
     <html
@@ -59,7 +63,12 @@ export default async function LocaleLayout({
       )}
     >
       <body className={cn(locale === "ar" ? "font-arabic" : "font-sans")}>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+          <WhatsAppButton />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

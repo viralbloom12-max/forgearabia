@@ -19,12 +19,12 @@ export const siteConfig = {
   founders: [
     {
       name: "Ibrahim Malik",
-      role: "Co-Founder & CEO",
+      roleKey: "ceo",
       image: "/brand/founder-ceo.webp",
     },
     {
       name: "Muhammad Mujahid",
-      role: "Co-Founder & CMO",
+      roleKey: "cmo",
       image: "/brand/cofounder-cmo.webp",
     },
   ],

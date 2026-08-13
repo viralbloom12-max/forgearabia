@@ -4,11 +4,234 @@
     "cta": {
       "getProposal": "Request a Proposal",
       "talkToUs": "Talk to Us",
-      "whatsapp": "Chat on WhatsApp"
+      "startProject": "Start Your Project",
+      "whatsapp": "Chat on WhatsApp",
+      "whatsappPrefill": "Hello Forge Arabia, I would like to discuss a project.",
+      "learnMore": "Learn more"
     }
   },
-  "foundation": {
-    "workingTitle": "Foundation ready",
-    "workingBody": "Bilingual routing and RTL support are live. The homepage is next."
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "whyUs": "Why Us",
+    "process": "Process",
+    "contact": "Contact",
+    "cta": "Request a Proposal"
+  },
+  "hero": {
+    "badge": "Digital Transformation Partner in Al Qassim",
+    "title": "Engineering digital growth for Saudi businesses",
+    "subtitle": "We bring together web technology, performance marketing, and AI automation, backed by a real understanding of the Saudi market, so your brand grows with confidence.",
+    "pillars": {
+      "technology": "Technology",
+      "marketing": "Marketing",
+      "automation": "AI Automation",
+      "market": "Saudi Market Focus"
+    },
+    "ctaPrimary": "Request a Proposal",
+    "ctaSecondary": "Chat on WhatsApp"
+  },
+  "trust": {
+    "lead": "A digital partner your business can rely on",
+    "items": {
+      "saudi": {
+        "title": "Rooted in Saudi Arabia",
+        "text": "Based in Ar Rass, Al Qassim, working with businesses across the Kingdom."
+      },
+      "bilingual": {
+        "title": "Arabic and English",
+        "text": "Every website, campaign, and brand delivered fluently in both languages."
+      },
+      "vision": {
+        "title": "Aligned with Vision 2030",
+        "text": "Digital work that supports the move toward a connected, diversified economy."
+      },
+      "senior": {
+        "title": "Senior team, direct access",
+        "text": "You work with the people building your project, not a call center."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About Forge Arabia",
+    "title": "A digital partner built for the Saudi market",
+    "p1": "Forge Arabia is a digital transformation company based in Ar Rass, Al Qassim. We help Saudi businesses design, build, and grow their presence online, from the website customers land on to the campaigns that bring them there.",
+    "p2": "Our approach joins three things most agencies keep separate: strong engineering, measurable marketing, and practical AI automation. The result is digital work that looks premium, performs in the market, and gives your team time back.",
+    "points": {
+      "one": "Technology and marketing under one roof",
+      "two": "Clear communication in Arabic and English",
+      "three": "Automation that removes repetitive work"
+    },
+    "foundersTitle": "Led by",
+    "foundersNote": "Forge Arabia is led by a founding team that stays close to every project.",
+    "roles": {
+      "ceo": "Co-Founder & CEO",
+      "cmo": "Co-Founder & CMO"
+    }
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "title": "Services that move your business forward",
+    "intro": "From your first website to full digital growth, each service is delivered to a premium standard and measured against real business goals.",
+    "cta": "Discuss your project",
+    "websiteDevelopment": {
+      "title": "Website Development",
+      "summary": "Fast, secure, custom websites built to represent your brand and turn visitors into customers."
+    },
+    "ecommerceDevelopment": {
+      "title": "E-Commerce Development",
+      "summary": "Online stores designed to sell, with smooth checkout, trusted payments, and management your team can run."
+    },
+    "seo": {
+      "title": "SEO & Local SEO",
+      "summary": "Get found on Google across Saudi Arabia, from national keywords to searches in your own city."
+    },
+    "digitalMarketing": {
+      "title": "Digital Marketing",
+      "summary": "Content, social, and campaigns that build your brand and bring in qualified leads."
+    },
+    "googleAds": {
+      "title": "Google Ads & PPC",
+      "summary": "Paid campaigns managed for return, putting your budget in front of buyers ready to act."
+    },
+    "aiAutomation": {
+      "title": "AI Automation",
+      "summary": "Automate replies, lead handling, and repetitive tasks so your team can focus on customers."
+    },
+    "branding": {
+      "title": "Branding & Digital Design",
+      "summary": "Identity, visuals, and design systems that make your business look established and premium."
+    },
+    "uiUx": {
+      "title": "UI/UX Design",
+      "summary": "Interfaces designed around your customers: clear, elegant, and easy to use."
+    }
+  },
+  "whyUs": {
+    "eyebrow": "Why Forge Arabia",
+    "title": "Why businesses choose to work with us",
+    "items": {
+      "oneTeam": {
+        "title": "One team for technology and marketing",
+        "text": "You do not need to manage separate agencies. We handle the website, the campaigns, and the automation together."
+      },
+      "saudiMarket": {
+        "title": "Built for the Saudi market",
+        "text": "Bilingual delivery, local search knowledge, and design that fits how Saudi customers buy."
+      },
+      "premium": {
+        "title": "Premium standard, every time",
+        "text": "Clean engineering, careful design, and work we are proud to put our name on."
+      },
+      "results": {
+        "title": "Measured against results",
+        "text": "We track what matters to your business: leads, sales, and visibility, not vanity metrics."
+      },
+      "automation": {
+        "title": "Automation that pays off",
+        "text": "We use AI to remove repetitive work, so your team spends time where it counts."
+      },
+      "honest": {
+        "title": "Direct, honest communication",
+        "text": "Clear timelines, clear pricing, and updates you can actually understand."
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "How We Work",
+    "title": "A clear process from first call to launch",
+    "intro": "Every project follows the same reliable path, so you always know what happens next.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "text": "We learn your business, your customers, and the goals behind the project."
+      },
+      "strategy": {
+        "title": "Strategy",
+        "text": "We map the right services, scope, and timeline for real results."
+      },
+      "build": {
+        "title": "Design & Build",
+        "text": "We design and develop your website, brand, or campaigns to a premium standard."
+      },
+      "launch": {
+        "title": "Launch",
+        "text": "We test, refine, and launch, then make sure everything runs smoothly."
+      },
+      "growth": {
+        "title": "Growth",
+        "text": "We track performance and keep improving through SEO, ads, and automation."
+      }
+    }
+  },
+  "platforms": {
+    "eyebrow": "Technology",
+    "title": "Platforms and tools we build on",
+    "intro": "We work across the platforms Saudi businesses actually use, and choose the right one for your goals."
+  },
+  "ai": {
+    "eyebrow": "AI Automation",
+    "title": "Put AI to work inside your business",
+    "body": "AI is only useful when it saves real time. We build practical automations that handle the repetitive work your team does every day, from answering common questions to capturing and routing leads.",
+    "features": {
+      "chat": "WhatsApp and website chat that answers instantly",
+      "leads": "Automatic lead capture and follow-up",
+      "workflows": "Content and reporting workflows that run themselves",
+      "tasks": "Booking, reminders, and internal task automation"
+    },
+    "cta": "See what we can automate"
+  },
+  "portfolio": {
+    "eyebrow": "Our Work",
+    "title": "See what we have built",
+    "body": "We share our portfolio and relevant examples directly, matched to your industry and your goals. Request it and we will send work that is relevant to you.",
+    "cta": "Request Our Portfolio",
+    "ctaSecondary": "Talk to Us",
+    "whatsappPrefill": "Hello Forge Arabia, I would like to see your portfolio."
+  },
+  "growthCta": {
+    "title": "Want to grow your brand with Forge Arabia?",
+    "body": "Tell us where your business is now and where you want it to be. We will put together a clear plan to get you there.",
+    "ctaPrimary": "Request a Proposal",
+    "ctaSecondary": "Chat on WhatsApp"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let us talk about your project",
+    "intro": "Send us a few details and we will get back to you quickly. Prefer to talk now? Reach us on WhatsApp.",
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "whatsappLabel": "WhatsApp",
+      "locationLabel": "Location",
+      "hoursLabel": "Hours",
+      "hoursValue": "Sunday to Thursday, 9am to 6pm"
+    },
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone number",
+      "service": "Service you are interested in",
+      "serviceDefault": "Select a service",
+      "serviceNotSure": "Not sure yet",
+      "message": "Tell us about your project",
+      "submit": "Send on WhatsApp",
+      "note": "Your details open a ready message in WhatsApp so we can reply quickly.",
+      "successTitle": "Your message is ready",
+      "successBody": "WhatsApp has opened with your details. Send the message and we will reply shortly.",
+      "sendAnother": "Send another",
+      "errorName": "Please enter your name.",
+      "errorContact": "Please add an email or phone number so we can reach you.",
+      "errorMessage": "Please tell us a little about your project.",
+      "prefillIntro": "New project enquiry from the Forge Arabia website"
+    }
+  },
+  "footer": {
+    "tagline": "A premium digital transformation partner based in Al Qassim, helping Saudi businesses grow through technology, marketing, and AI automation.",
+    "location": "Ar Rass, Al Qassim, Saudi Arabia",
+    "company": "Company",
+    "services": "Services",
+    "rights": "All rights reserved.",
+    "whatsappPrefill": "Hello Forge Arabia, I would like to discuss a project."
   }
 }
