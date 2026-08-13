@@ -21,9 +21,13 @@ interface RouteDef {
 function routes(): RouteDef[] {
   const list: RouteDef[] = [
     { path: "", changeFrequency: "weekly", priority: 1 },
+    { path: "/about", changeFrequency: "yearly", priority: 0.7 },
+    { path: "/contact", changeFrequency: "yearly", priority: 0.7 },
     { path: "/services", changeFrequency: "monthly", priority: 0.9 },
     { path: "/locations", changeFrequency: "monthly", priority: 0.9 },
     { path: "/industries", changeFrequency: "monthly", priority: 0.9 },
+    { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.3 },
+    { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
   ];
   for (const s of services) {
     list.push({ path: `/services/${s.slug}`, changeFrequency: "monthly", priority: 0.8 });

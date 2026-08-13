@@ -139,14 +139,22 @@ export async function Footer() {
           <p>
             &copy; {year} {siteConfig.name}. {t("footer.rights")}
           </p>
-          <a
-            href={whatsappUrl(t("footer.whatsappPrefill"))}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-white"
-          >
-            {t("common.cta.whatsapp")}
-          </a>
+          <div className="flex items-center gap-4">
+            <Link href="/privacy-policy" className="transition-colors hover:text-white">
+              {t("legalNav.privacy")}
+            </Link>
+            <Link href="/terms" className="transition-colors hover:text-white">
+              {t("legalNav.terms")}
+            </Link>
+            <a
+              href={whatsappUrl(t("footer.whatsappPrefill"))}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-white"
+            >
+              {t("common.cta.whatsapp")}
+            </a>
+          </div>
         </div>
       </div>
     </footer>

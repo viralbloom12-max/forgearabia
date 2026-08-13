@@ -765,6 +765,163 @@
       ]
     }
   },
+  "aboutPage": {
+    "metaTitle": "About Forge Arabia",
+    "metaDescription": "Forge Arabia is a digital transformation company based in Ar Rass, Al Qassim, serving businesses across Saudi Arabia with technology, marketing, and AI automation.",
+    "eyebrow": "About Us",
+    "title": "About Forge Arabia",
+    "lead": "We are a digital transformation partner based in Ar Rass, Al Qassim, helping Saudi businesses grow through technology, marketing, and AI automation.",
+    "storyTitle": "Our story",
+    "story1": "Forge Arabia began with a simple observation. Most Saudi businesses are served by agencies that do one thing well and the rest poorly. A company might have a good website but weak marketing, or strong campaigns pointing at a site that does not convert.",
+    "story2": "We built Forge Arabia to close that gap. From our base in Al Qassim, we bring engineering, marketing, and AI automation together under one roof, so the work is joined up and accountable to real business results.",
+    "missionTitle": "Our mission",
+    "mission": "To help Saudi businesses grow online with work that looks premium, performs in the market, and gives their teams time back.",
+    "visionTitle": "Our vision",
+    "vision": "To be the digital partner Saudi businesses trust as the Kingdom moves toward a connected, diversified economy.",
+    "marketTitle": "Built for the Saudi market",
+    "market1": "We are a Saudi based team, and it shapes everything we do. We deliver in Arabic and English, understand how local customers search and buy, and design for the way business is done here.",
+    "market2": "From Ar Rass and the wider Qassim region to Riyadh, Jeddah, and Dammam, we work with businesses across the Kingdom.",
+    "positioningTitle": "Technology, marketing, and AI in one team",
+    "positioning": "Our strength is the combination. Engineers, designers, marketers, and automation specialists working together means fewer handoffs, clearer accountability, and digital work that actually moves your business forward.",
+    "foundersTitle": "Founders",
+    "teamTitle": "Our team",
+    "teamLead": "Our founding team is supported by specialists across development, design, marketing, and automation. Together we are a team of seven.",
+    "roles": {
+      "webDev": "Web Development",
+      "design": "Design and UI/UX",
+      "seo": "SEO and Content",
+      "marketing": "Performance Marketing",
+      "ai": "AI Automation"
+    },
+    "ctaTitle": "Let us build something together",
+    "ctaBody": "Tell us about your business and we will put together a clear plan and quote."
+  },
+  "contactPage": {
+    "metaTitle": "Contact Forge Arabia",
+    "metaDescription": "Contact Forge Arabia in Ar Rass, Al Qassim. Call or WhatsApp +966 57 008 6675, email info@forgearabia.com, or send us a message.",
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "lead": "Tell us about your project and we will get back to you quickly. Prefer to talk now? Call or message us on WhatsApp.",
+    "detailsTitle": "Contact details",
+    "mapTitle": "Find us",
+    "mapNote": "Based in Ar Rass, Al Qassim, serving businesses across Saudi Arabia.",
+    "viewOnMaps": "View on Google Maps",
+    "whatsappCtaTitle": "Prefer to chat now?",
+    "whatsappCtaBody": "Message us on WhatsApp and we will reply quickly."
+  },
+  "privacy": {
+    "metaTitle": "Privacy Policy",
+    "metaDescription": "How Forge Arabia collects, uses, and protects your information.",
+    "title": "Privacy Policy",
+    "updated": "Last updated: 13 August 2026",
+    "intro": "This Privacy Policy explains how Forge Arabia collects, uses, and protects your information when you use our website or contact us. Forge Arabia is based in Ar Rass, Al Qassim, Saudi Arabia.",
+    "sections": [
+      {
+        "title": "Information we collect",
+        "body": [
+          "When you contact us through our website, we collect the details you provide, such as your name, email address, phone number, and the message you send.",
+          "If you browse the site, we may also collect basic technical information such as your device type and the pages you visit."
+        ]
+      },
+      {
+        "title": "How we use your information",
+        "body": [
+          "We use your information to respond to your enquiry, provide the services you ask about, improve our website, and communicate with you about your project.",
+          "We do not sell your personal information."
+        ]
+      },
+      {
+        "title": "How we share information",
+        "body": [
+          "We share information only with the service providers we use to run our business, such as our email delivery provider and website hosting. These providers process data on our behalf and are not permitted to use it for their own purposes."
+        ]
+      },
+      {
+        "title": "Cookies and analytics",
+        "body": [
+          "Our website may use cookies and analytics tools to understand how visitors use the site so we can improve it. You can control cookies through your browser settings."
+        ]
+      },
+      {
+        "title": "Data retention",
+        "body": [
+          "We keep your information only as long as needed to respond to your enquiry and to meet our legal and business requirements."
+        ]
+      },
+      {
+        "title": "Your rights",
+        "body": [
+          "You may ask us to access, correct, or delete the personal information we hold about you. To make a request, contact us using the details below."
+        ]
+      }
+    ],
+    "contactTitle": "Contact us",
+    "contactBody": "If you have any questions about this policy, contact us at {email} or {phone}."
+  },
+  "terms": {
+    "metaTitle": "Terms of Service",
+    "metaDescription": "The terms that govern your use of the Forge Arabia website.",
+    "title": "Terms of Service",
+    "updated": "Last updated: 13 August 2026",
+    "intro": "These Terms of Service govern your use of the Forge Arabia website. By using this website, you agree to these terms. Forge Arabia is based in Ar Rass, Al Qassim, Saudi Arabia.",
+    "sections": [
+      {
+        "title": "Our services",
+        "body": [
+          "Forge Arabia provides digital services including website and e-commerce development, SEO, digital marketing, Google Ads, AI automation, branding, and design.",
+          "The scope, timeline, and price of any project are agreed separately in writing before work begins."
+        ]
+      },
+      {
+        "title": "Use of this website",
+        "body": [
+          "You may use this website for lawful purposes only. You agree not to misuse the site, attempt to disrupt it, or use it in any way that could harm Forge Arabia or others."
+        ]
+      },
+      {
+        "title": "Intellectual property",
+        "body": [
+          "The content, design, and branding on this website belong to Forge Arabia unless stated otherwise. You may not copy or reuse them without our permission."
+        ]
+      },
+      {
+        "title": "Enquiries and communication",
+        "body": [
+          "Submitting an enquiry through our website does not create a contract. A project begins only once both parties agree the scope and terms in writing."
+        ]
+      },
+      {
+        "title": "No warranty",
+        "body": [
+          "This website is provided as is. While we work to keep the information accurate and the site available, we do not guarantee it will be error free or uninterrupted."
+        ]
+      },
+      {
+        "title": "Limitation of liability",
+        "body": [
+          "To the extent permitted by law, Forge Arabia is not liable for any indirect or consequential loss arising from your use of this website."
+        ]
+      },
+      {
+        "title": "Governing law",
+        "body": [
+          "These terms are governed by the laws of the Kingdom of Saudi Arabia."
+        ]
+      },
+      {
+        "title": "Changes to these terms",
+        "body": [
+          "We may update these terms from time to time. The latest version will always be available on this page."
+        ]
+      }
+    ],
+    "contactTitle": "Contact us",
+    "contactBody": "For any questions about these terms, contact us at {email} or {phone}."
+  },
+  "legalNav": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
   "footer": {
     "tagline": "A premium digital transformation partner based in Al Qassim, helping Saudi businesses grow through technology, marketing, and AI automation.",
     "location": "Ar Rass, Al Qassim, Saudi Arabia",
