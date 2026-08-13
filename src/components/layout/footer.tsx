@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Mail, Phone, MapPin } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { services } from "@/config/services";
+import { locations } from "@/config/locations";
 import { mainNav } from "@/config/navigation";
 import { whatsappUrl } from "@/lib/whatsapp";
 import { Link } from "@/i18n/navigation";
@@ -89,6 +90,31 @@ export async function Footer() {
               </li>
             ))}
           </ul>
+        </div>
+      </div>
+
+      {/* Locations strip for internal linking */}
+      <div className="border-t border-silver/10">
+        <div className="container-page flex flex-wrap items-center gap-x-2 gap-y-2 py-5 text-sm text-silver-muted">
+          <Link
+            href="/locations"
+            className="font-medium text-white transition-colors hover:text-neon"
+          >
+            {t("locationCommon.locations")}:
+          </Link>
+          {locations.map((l, i) => (
+            <span key={l.slug} className="flex items-center gap-2">
+              <Link
+                href={`/locations/${l.slug}`}
+                className="transition-colors hover:text-white"
+              >
+                {t(`locationDetail.${l.key}.name`)}
+              </Link>
+              {i < locations.length - 1 ? (
+                <span className="text-silver-faint">·</span>
+              ) : null}
+            </span>
+          ))}
         </div>
       </div>
 

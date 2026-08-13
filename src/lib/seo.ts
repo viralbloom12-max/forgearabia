@@ -102,6 +102,54 @@ export function localBusinessLd(locale: Locale) {
   };
 }
 
+/**
+ * LocalBusiness (ProfessionalService) targeting a specific served city. The
+ * postal address stays the real company NAP in Ar Rass; areaServed marks the
+ * city the page targets, and geo points at that city for local relevance.
+ */
+export function locationBusinessLd({
+  locale,
+  city,
+  description,
+  path,
+  geo,
+}: {
+  locale: Locale;
+  city: string;
+  description: string;
+  path: string;
+  geo: { lat: number; lng: number };
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    name: `${siteConfig.name} - ${city}`,
+    description,
+    url: `${siteConfig.url}/${locale}${path}`,
+    image: `${siteConfig.url}${siteConfig.assets.logo}`,
+    email: siteConfig.email,
+    telephone: siteConfig.phone,
+    priceRange: "$$",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: siteConfig.address.city,
+      addressRegion: siteConfig.address.region,
+      addressCountry: siteConfig.address.countryCode,
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: geo.lat,
+      longitude: geo.lng,
+    },
+    areaServed: { "@type": "City", name: city },
+    provider: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+    },
+  };
+}
+
 export function serviceLd({
   locale,
   name,

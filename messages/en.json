@@ -453,6 +453,132 @@
       ]
     }
   },
+  "locationCommon": {
+    "locations": "Locations",
+    "servicesTitle": "Services for businesses in {city}",
+    "servicesIntro": "Every service we offer is available to businesses in {city}, delivered to a premium standard in Arabic and English.",
+    "industriesTitle": "Industries we support in {city}",
+    "faqTitle": "Frequently asked questions",
+    "relatedTitle": "Other locations we serve",
+    "ctaTitle": "Ready to grow in {city}?",
+    "ctaBody": "Tell us about your business and we will put together a clear plan and quote, with no pressure.",
+    "ctaPrimary": "Start Your Project",
+    "ctaSecondary": "Chat on WhatsApp",
+    "overviewMetaTitle": "Locations We Serve Across Saudi Arabia",
+    "overviewMetaDescription": "Forge Arabia works with businesses across Saudi Arabia, including Ar Rass, Buraidah, Unaizah, Al Qassim, Riyadh, Jeddah, and Dammam, in Arabic and English.",
+    "overviewEyebrow": "Locations",
+    "overviewTitle": "Serving businesses across Saudi Arabia",
+    "overviewIntro": "Based in Al Qassim and working with companies across the Kingdom, delivered in Arabic and English."
+  },
+  "locationIndustries": {
+    "arRass": ["Retail", "Restaurants and cafes", "Real estate", "Local services", "Clinics", "Agriculture"],
+    "buraidah": ["Retail and wholesale", "Agriculture and dates", "Real estate", "Restaurants and cafes", "Healthcare", "Education"],
+    "unaizah": ["Retail and commerce", "Restaurants and cafes", "Real estate", "Agriculture", "Professional services", "Local services"],
+    "alQassim": ["Agriculture and dates", "Retail and wholesale", "Real estate", "Manufacturing", "Healthcare", "Education"],
+    "riyadh": ["Corporate and enterprise", "Real estate", "Retail and e-commerce", "Healthcare", "Hospitality", "Professional services"],
+    "jeddah": ["Retail and e-commerce", "Hospitality and tourism", "Trade and logistics", "Real estate", "Restaurants and cafes", "Healthcare"],
+    "dammam": ["Industry and manufacturing", "Energy services", "Logistics", "Real estate", "Retail", "Professional services"]
+  },
+  "locationDetail": {
+    "arRass": {
+      "name": "Ar Rass",
+      "metaTitle": "Digital Marketing and Web Development in Ar Rass",
+      "metaDescription": "Forge Arabia is based in Ar Rass, Al Qassim. Web development, e-commerce, SEO, and digital marketing for Ar Rass businesses, in Arabic and English.",
+      "h1": "Web Development and Digital Marketing in Ar Rass",
+      "tagline": "Your local digital partner in Ar Rass, building websites, stores, and campaigns that bring in customers.",
+      "intro1": "Forge Arabia is based in Ar Rass, so working with businesses here is close to home. We understand the local market and the customers you are trying to reach, and we help you meet them online.",
+      "intro2": "From a first website to full digital marketing, we help Ar Rass businesses build a presence that looks premium and brings in real enquiries, all delivered in Arabic and English.",
+      "faqs": [
+        { "q": "Are you based in Ar Rass?", "a": "Yes. Ar Rass is our home base in Al Qassim, and we work with businesses here and across the Kingdom." },
+        { "q": "Do we need to meet in person?", "a": "Not necessarily. We work smoothly by call and WhatsApp, and can meet locally when it helps." },
+        { "q": "Can you deliver in Arabic and English?", "a": "Yes. Every website, campaign, and brand is delivered in both languages." }
+      ]
+    },
+    "buraidah": {
+      "name": "Buraidah",
+      "metaTitle": "Digital Marketing and Web Development in Buraidah",
+      "metaDescription": "Web development, e-commerce, SEO, and digital marketing for Buraidah businesses. A Qassim based team delivering in Arabic and English.",
+      "h1": "Web Development and Digital Marketing in Buraidah",
+      "tagline": "Helping Buraidah businesses grow online, from local shops to established companies.",
+      "intro1": "Buraidah is the commercial heart of Al Qassim, with a busy retail scene and a strong base of family businesses and traders. We help these businesses stand out online and reach the customers who are searching for them.",
+      "intro2": "As a Qassim based team, we know the Buraidah market well. We build websites and stores and run campaigns that fit how local customers browse and buy, in Arabic and English.",
+      "faqs": [
+        { "q": "Do you work with Buraidah businesses?", "a": "Yes. We are based in Al Qassim and work closely with businesses in Buraidah and the surrounding area." },
+        { "q": "Do you understand the local market?", "a": "Yes. As a Qassim based team, we know how customers in Buraidah search and buy." },
+        { "q": "Can you help my shop sell online?", "a": "Yes. We build online stores and help you reach customers beyond your physical location." }
+      ]
+    },
+    "unaizah": {
+      "name": "Unaizah",
+      "metaTitle": "Digital Marketing and Web Development in Unaizah",
+      "metaDescription": "Web development, e-commerce, SEO, and digital marketing for Unaizah businesses, delivered in Arabic and English by a Qassim based team.",
+      "h1": "Web Development and Digital Marketing in Unaizah",
+      "tagline": "A local partner for Unaizah businesses ready to grow online.",
+      "intro1": "Unaizah has a proud commercial and cultural history and a strong community of local businesses. We help these businesses build a digital presence that matches their reputation and reaches new customers.",
+      "intro2": "We are based nearby in Al Qassim, so we understand the Unaizah market. We deliver websites, stores, and campaigns in Arabic and English, built around your goals.",
+      "faqs": [
+        { "q": "Do you serve Unaizah?", "a": "Yes. We work with Unaizah businesses as part of our home region of Al Qassim." },
+        { "q": "Do we have to visit your office?", "a": "No. We work by call and WhatsApp, and can meet locally when useful." },
+        { "q": "Will my site work in Arabic?", "a": "Yes. We build in Arabic and English with full right to left support." }
+      ]
+    },
+    "alQassim": {
+      "name": "Al Qassim",
+      "metaTitle": "Digital Agency in Al Qassim",
+      "metaDescription": "Forge Arabia is a digital agency based in Al Qassim. Web development, e-commerce, SEO, and digital marketing for Qassim businesses, in Arabic and English.",
+      "h1": "Digital Agency in Al Qassim",
+      "tagline": "Your regional digital partner, based in Al Qassim and serving businesses across the region.",
+      "intro1": "Al Qassim is our home. From Buraidah and Unaizah to Ar Rass and the smaller towns, we work with businesses across the region to build a stronger presence online.",
+      "intro2": "Being based here means we understand the Qassim market, its industries, and its customers. We deliver premium websites, stores, and campaigns in Arabic and English.",
+      "faqs": [
+        { "q": "Where in Al Qassim are you based?", "a": "We are based in Ar Rass, and we work with businesses across the whole region." },
+        { "q": "Do you cover the whole region?", "a": "Yes. We work with businesses in Buraidah, Unaizah, Ar Rass, and the wider Qassim area." },
+        { "q": "Can you deliver in Arabic and English?", "a": "Yes. Every project is delivered in both languages." }
+      ]
+    },
+    "riyadh": {
+      "name": "Riyadh",
+      "metaTitle": "Digital Marketing and Web Development in Riyadh",
+      "metaDescription": "Web development, e-commerce, SEO, and digital marketing for Riyadh businesses. Premium, bilingual delivery for a competitive capital market.",
+      "h1": "Web Development and Digital Marketing in Riyadh",
+      "tagline": "Helping Riyadh businesses stand out in the Kingdom's most competitive market.",
+      "intro1": "Riyadh is the largest and most competitive market in Saudi Arabia, home to enterprises, fast growing companies, and ambitious new brands. Standing out here takes more than a basic website.",
+      "intro2": "We help Riyadh businesses build premium digital experiences and run campaigns that cut through the competition, measured against real results and delivered in Arabic and English.",
+      "faqs": [
+        { "q": "Do you work with Riyadh businesses?", "a": "Yes. We work with companies across Riyadh and the wider Kingdom." },
+        { "q": "Do we need to meet in person?", "a": "No. We work efficiently by call and WhatsApp with clients across Saudi Arabia." },
+        { "q": "Can you handle a competitive market?", "a": "Yes. We focus on premium design and campaigns built for return, which matters most in a market like Riyadh." }
+      ]
+    },
+    "jeddah": {
+      "name": "Jeddah",
+      "metaTitle": "Digital Marketing and Web Development in Jeddah",
+      "metaDescription": "Web development, e-commerce, SEO, and digital marketing for Jeddah businesses, delivered in Arabic and English with a focus on results.",
+      "h1": "Web Development and Digital Marketing in Jeddah",
+      "tagline": "Helping Jeddah businesses grow with premium websites and campaigns that convert.",
+      "intro1": "Jeddah is a major commercial hub with a strong retail, trade, and hospitality scene. Customers here expect a smooth, modern experience online, and the businesses that deliver it win.",
+      "intro2": "We help Jeddah businesses build fast, premium websites and stores, and run campaigns that bring in qualified customers, all in Arabic and English.",
+      "faqs": [
+        { "q": "Do you work with Jeddah businesses?", "a": "Yes. We work with businesses in Jeddah and across the Kingdom." },
+        { "q": "Do we have to meet in person?", "a": "No. We work remotely by call and WhatsApp with clients throughout Saudi Arabia." },
+        { "q": "Can you build an online store?", "a": "Yes. We build e-commerce stores designed to sell, with local payments and smooth checkout." }
+      ]
+    },
+    "dammam": {
+      "name": "Dammam",
+      "metaTitle": "Digital Marketing and Web Development in Dammam",
+      "metaDescription": "Web development, e-commerce, SEO, and digital marketing for Dammam and Eastern Province businesses, delivered in Arabic and English.",
+      "h1": "Web Development and Digital Marketing in Dammam",
+      "tagline": "A digital partner for Dammam and Eastern Province businesses.",
+      "intro1": "Dammam and the Eastern Province are home to industry, energy, logistics, and a growing base of service companies. These businesses need a digital presence that is as professional as their work.",
+      "intro2": "We help Dammam businesses build credible, premium websites and run campaigns that reach the right customers, delivered in Arabic and English.",
+      "faqs": [
+        { "q": "Do you work with Dammam businesses?", "a": "Yes. We work with businesses in Dammam and across the Eastern Province and the Kingdom." },
+        { "q": "Do we need to meet in person?", "a": "No. We work smoothly by call and WhatsApp with clients across Saudi Arabia." },
+        { "q": "Can you deliver in Arabic and English?", "a": "Yes. Every project is delivered in both languages." }
+      ]
+    }
+  },
   "footer": {
     "tagline": "A premium digital transformation partner based in Al Qassim, helping Saudi businesses grow through technology, marketing, and AI automation.",
     "location": "Ar Rass, Al Qassim, Saudi Arabia",
