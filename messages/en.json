@@ -468,7 +468,11 @@
     "overviewMetaDescription": "Forge Arabia works with businesses across Saudi Arabia, including Ar Rass, Buraidah, Unaizah, Al Qassim, Riyadh, Jeddah, and Dammam, in Arabic and English.",
     "overviewEyebrow": "Locations",
     "overviewTitle": "Serving businesses across Saudi Arabia",
-    "overviewIntro": "Based in Al Qassim and working with companies across the Kingdom, delivered in Arabic and English."
+    "overviewIntro": "Forge Arabia is based in Al Qassim and works with businesses across the Kingdom, delivered in Arabic and English.",
+    "qassimTitle": "Qassim region",
+    "qassimNote": "Our home region. We work closely with businesses across Qassim, from Ar Rass and Buraidah to Unaizah.",
+    "citiesTitle": "Major Saudi cities",
+    "citiesNote": "We also support businesses in the Kingdom's largest markets."
   },
   "locationIndustries": {
     "arRass": ["Retail", "Restaurants and cafes", "Real estate", "Local services", "Clinics", "Agriculture"],
@@ -576,6 +580,185 @@
         { "q": "Do you work with Dammam businesses?", "a": "Yes. We work with businesses in Dammam and across the Eastern Province and the Kingdom." },
         { "q": "Do we need to meet in person?", "a": "No. We work smoothly by call and WhatsApp with clients across Saudi Arabia." },
         { "q": "Can you deliver in Arabic and English?", "a": "Yes. Every project is delivered in both languages." }
+      ]
+    }
+  },
+  "industryCommon": {
+    "industries": "Industries",
+    "helpsTitle": "How we help {industry} businesses",
+    "servicesTitle": "Recommended services",
+    "servicesIntro": "The services that make the biggest difference for {industry} businesses, delivered in Arabic and English.",
+    "faqTitle": "Frequently asked questions",
+    "relatedTitle": "Other industries",
+    "ctaTitle": "Ready to grow your business?",
+    "ctaBody": "Tell us about your business and we will put together a clear plan and quote, with no pressure.",
+    "ctaPrimary": "Start Your Project",
+    "ctaSecondary": "Chat on WhatsApp",
+    "overviewMetaTitle": "Industries We Serve in Saudi Arabia",
+    "overviewMetaDescription": "Forge Arabia builds websites, stores, and campaigns for restaurants, clinics, real estate, retail, construction, and more across Saudi Arabia, in Arabic and English.",
+    "overviewEyebrow": "Industries",
+    "overviewTitle": "Digital solutions for every industry",
+    "overviewIntro": "We understand that every industry sells differently. Choose yours to see how we help businesses like yours grow across Saudi Arabia."
+  },
+  "industryDetail": {
+    "restaurants": {
+      "name": "Restaurants & Cafes",
+      "short": "Menus, bookings, and branding that fill tables and build loyal regulars.",
+      "metaTitle": "Digital Marketing for Restaurants and Cafes in Saudi Arabia",
+      "metaDescription": "Websites, branding, and digital marketing for restaurants and cafes in Saudi Arabia. Fill tables and build a loyal following, in Arabic and English.",
+      "h1": "Digital Solutions for Restaurants and Cafes",
+      "tagline": "Websites, branding, and marketing that fill tables and turn first visits into regulars.",
+      "intro1": "Saudi Arabia has a thriving food scene, and customers choose where to eat online long before they arrive. A strong presence, good photos, and an easy menu make the difference between being found and being missed.",
+      "intro2": "We help restaurants and cafes look their best online, get discovered on search and social, and make it simple for customers to view the menu, find you, and book.",
+      "helps": [
+        { "title": "Look as good online as you do in person", "text": "Premium websites and branding that match the experience you offer." },
+        { "title": "Get found by nearby diners", "text": "Local SEO and Google profiles so hungry customers find you first." },
+        { "title": "Fill quiet hours", "text": "Social campaigns and offers that bring customers in when you need them." }
+      ],
+      "faqs": [
+        { "q": "Can you add our menu online?", "a": "Yes. We present your menu clearly and keep it easy to update whenever prices or dishes change." },
+        { "q": "Can customers book or order?", "a": "Yes. We can add booking and ordering options that suit how your restaurant works." },
+        { "q": "Do you handle social media?", "a": "Yes. We create content and run campaigns that keep your restaurant visible and busy." }
+      ]
+    },
+    "healthcare": {
+      "name": "Clinics & Healthcare",
+      "short": "Trusted websites and bookings that help patients find and choose your clinic.",
+      "metaTitle": "Digital Marketing for Clinics and Healthcare in Saudi Arabia",
+      "metaDescription": "Websites, SEO, and Google Ads for clinics and healthcare providers in Saudi Arabia. Help patients find and trust your clinic, in Arabic and English.",
+      "h1": "Digital Solutions for Clinics and Healthcare",
+      "tagline": "Trusted, professional websites and campaigns that help patients find and choose your clinic.",
+      "intro1": "Patients research clinics online before they book, and trust is everything. A professional website and a strong presence on search reassure patients and bring them through your door.",
+      "intro2": "We help clinics and healthcare providers build credible websites, appear when patients search for treatment, and make booking simple, all in Arabic and English.",
+      "helps": [
+        { "title": "Build patient trust", "text": "Clean, professional design that reflects the quality of your care." },
+        { "title": "Appear in patient searches", "text": "SEO and Google Ads that reach patients looking for your services." },
+        { "title": "Reduce no shows and calls", "text": "Online booking and automated reminders that save your team time." }
+      ],
+      "faqs": [
+        { "q": "Can patients book online?", "a": "Yes. We can add booking that fits your clinic and reduces phone load." },
+        { "q": "Can you help us appear on Google?", "a": "Yes. We combine SEO and Google Ads to reach patients searching for treatment." },
+        { "q": "Is the site available in Arabic?", "a": "Yes. We build in Arabic and English so every patient feels at home." }
+      ]
+    },
+    "realEstate": {
+      "name": "Real Estate",
+      "short": "Listings, landing pages, and lead campaigns that turn interest into viewings.",
+      "metaTitle": "Digital Marketing for Real Estate in Saudi Arabia",
+      "metaDescription": "Websites, SEO, and lead campaigns for real estate businesses in Saudi Arabia. Showcase properties and generate qualified enquiries, in Arabic and English.",
+      "h1": "Digital Solutions for Real Estate",
+      "tagline": "Property websites and lead campaigns that turn interest into viewings and sales.",
+      "intro1": "Property buyers and renters start their search online, comparing options and shortlisting fast. Strong listings and quick, credible follow up win the enquiry.",
+      "intro2": "We help real estate businesses showcase properties, capture serious enquiries, and follow up quickly, with websites, campaigns, and automation in Arabic and English.",
+      "helps": [
+        { "title": "Showcase properties well", "text": "Fast websites and landing pages that present listings at their best." },
+        { "title": "Generate qualified leads", "text": "Google and social campaigns aimed at buyers and renters ready to act." },
+        { "title": "Respond before competitors", "text": "Automated lead capture and follow up so no enquiry goes cold." }
+      ],
+      "faqs": [
+        { "q": "Can you manage property listings?", "a": "Yes. We build sites that make listings easy to add, update, and browse." },
+        { "q": "Can you generate leads?", "a": "Yes. We run campaigns designed to bring in serious buyer and renter enquiries." },
+        { "q": "Do you support Arabic and English?", "a": "Yes. Every site and campaign is delivered in both languages." }
+      ]
+    },
+    "retail": {
+      "name": "Retail & E-Commerce",
+      "short": "Online stores and campaigns that sell, from first visit to repeat purchase.",
+      "metaTitle": "E-Commerce and Digital Marketing for Retail in Saudi Arabia",
+      "metaDescription": "Online stores, digital marketing, and ads for retail and e-commerce brands in Saudi Arabia. Built to sell, in Arabic and English.",
+      "h1": "Digital Solutions for Retail and E-Commerce",
+      "tagline": "Online stores and campaigns that sell, from the first visit to repeat purchase.",
+      "intro1": "Saudi shoppers buy online more every year, and they expect a fast, smooth experience with the payment methods they trust. Retailers who deliver that grow.",
+      "intro2": "We build online stores designed to sell and run the campaigns that bring shoppers to them, with local payments, smooth checkout, and delivery in Arabic and English.",
+      "helps": [
+        { "title": "Sell online with confidence", "text": "Stores built for smooth checkout, local payments, and easy management." },
+        { "title": "Bring in shoppers", "text": "Social, search, and paid campaigns that drive traffic that converts." },
+        { "title": "Turn buyers into regulars", "text": "Marketing that keeps customers coming back after the first order." }
+      ],
+      "faqs": [
+        { "q": "Which store platform do you use?", "a": "We choose the right platform for you, from Salla and Zid to custom builds." },
+        { "q": "Can you run our ads too?", "a": "Yes. We handle the store and the campaigns that drive sales to it." },
+        { "q": "Do you set up local payments?", "a": "Yes. We support the payment methods Saudi shoppers expect, including mada." }
+      ]
+    },
+    "construction": {
+      "name": "Construction & Contracting",
+      "short": "Credible websites and branding that win trust and bigger projects.",
+      "metaTitle": "Web Design and Branding for Construction Companies in Saudi Arabia",
+      "metaDescription": "Websites, branding, and SEO for construction and contracting companies in Saudi Arabia. Build credibility and win bigger projects, in Arabic and English.",
+      "h1": "Digital Solutions for Construction and Contracting",
+      "tagline": "Credible websites and branding that win trust and larger projects.",
+      "intro1": "In construction and contracting, credibility wins work. Clients check your website and past projects before they trust you with theirs, and a weak presence costs you the shortlist.",
+      "intro2": "We help construction and contracting companies present their work professionally, appear in relevant searches, and look like the established, capable partner they are.",
+      "helps": [
+        { "title": "Show your track record", "text": "Websites that present your projects and capabilities with authority." },
+        { "title": "Look established and capable", "text": "Branding and design that reflect the scale of work you deliver." },
+        { "title": "Be found by serious clients", "text": "SEO that reaches clients searching for contractors they can trust." }
+      ],
+      "faqs": [
+        { "q": "Can you showcase our past projects?", "a": "Yes. We build project galleries that make your work the centerpiece." },
+        { "q": "Do you design logos and branding?", "a": "Yes. We create branding that positions you as an established company." },
+        { "q": "Is the site bilingual?", "a": "Yes. We deliver in Arabic and English." }
+      ]
+    },
+    "professional": {
+      "name": "Professional Services",
+      "short": "Websites and automation that build authority and win more clients.",
+      "metaTitle": "Digital Marketing for Professional Services in Saudi Arabia",
+      "metaDescription": "Websites, SEO, branding, and automation for professional services firms in Saudi Arabia. Build authority and win more clients, in Arabic and English.",
+      "h1": "Digital Solutions for Professional Services",
+      "tagline": "Websites, branding, and automation that build authority and win more clients.",
+      "intro1": "Law firms, consultancies, accountants, and agencies win work on trust and reputation. Your website and presence need to reflect the expertise clients are paying for.",
+      "intro2": "We help professional services firms build authoritative websites, appear when clients search, and automate enquiries so nothing slips, all in Arabic and English.",
+      "helps": [
+        { "title": "Signal expertise", "text": "Polished websites and branding that reflect the quality of your work." },
+        { "title": "Get found by clients", "text": "SEO that puts your firm in front of clients searching for your services." },
+        { "title": "Handle enquiries efficiently", "text": "Automation that captures and organizes new client enquiries." }
+      ],
+      "faqs": [
+        { "q": "Can you make us look more established?", "a": "Yes. Premium design and branding position your firm as a trusted authority." },
+        { "q": "Can you help us get client enquiries?", "a": "Yes. We combine SEO and clear calls to action to generate enquiries." },
+        { "q": "Do you deliver in Arabic and English?", "a": "Yes. Every project is delivered in both languages." }
+      ]
+    },
+    "education": {
+      "name": "Education",
+      "short": "Websites and campaigns that attract students and simplify enrolment.",
+      "metaTitle": "Digital Marketing for Education in Saudi Arabia",
+      "metaDescription": "Websites, digital marketing, and automation for schools, academies, and training providers in Saudi Arabia. Attract students, in Arabic and English.",
+      "h1": "Digital Solutions for Education",
+      "tagline": "Websites and campaigns that attract students and make enrolment simple.",
+      "intro1": "Parents and students compare schools, academies, and courses online. A clear, trustworthy presence and simple enrolment help you win their choice.",
+      "intro2": "We help education providers present their programs well, reach the right families and students, and simplify enrolment and enquiries, in Arabic and English.",
+      "helps": [
+        { "title": "Present programs clearly", "text": "Websites that explain your courses and make the right choice easy." },
+        { "title": "Reach students and parents", "text": "Search and social campaigns that fill your intake." },
+        { "title": "Simplify enrolment", "text": "Forms and automation that make signing up and enquiring easy." }
+      ],
+      "faqs": [
+        { "q": "Can you help fill our intake?", "a": "Yes. We run campaigns aimed at the students and parents you want to reach." },
+        { "q": "Can parents enquire or enrol online?", "a": "Yes. We add clear enquiry and enrolment forms that are easy to use." },
+        { "q": "Is the site in Arabic and English?", "a": "Yes. We build in both languages." }
+      ]
+    },
+    "hospitality": {
+      "name": "Hospitality & Tourism",
+      "short": "Websites, branding, and bookings that turn browsers into guests.",
+      "metaTitle": "Digital Marketing for Hospitality and Tourism in Saudi Arabia",
+      "metaDescription": "Websites, branding, and campaigns for hotels, resorts, and tourism businesses in Saudi Arabia. Turn browsers into guests, in Arabic and English.",
+      "h1": "Digital Solutions for Hospitality and Tourism",
+      "tagline": "Websites, branding, and campaigns that turn browsers into booked guests.",
+      "intro1": "With tourism growing across the Kingdom, guests plan and book online, comparing experiences on look and trust. A beautiful, easy site turns interest into bookings.",
+      "intro2": "We help hotels, resorts, and tourism businesses present their experience beautifully, reach travelers, and make booking effortless, in Arabic and English.",
+      "helps": [
+        { "title": "Show the experience", "text": "Visually rich websites and branding that make guests want to book." },
+        { "title": "Reach travelers", "text": "Search and social campaigns aimed at the guests you want." },
+        { "title": "Make booking easy", "text": "Simple booking journeys that convert interest into stays." }
+      ],
+      "faqs": [
+        { "q": "Can guests book on the site?", "a": "Yes. We add booking journeys that fit how your property works." },
+        { "q": "Can you help us reach tourists?", "a": "Yes. We run campaigns aimed at travelers planning to visit." },
+        { "q": "Do you support Arabic and English?", "a": "Yes. Every site and campaign is delivered in both languages." }
       ]
     }
   },

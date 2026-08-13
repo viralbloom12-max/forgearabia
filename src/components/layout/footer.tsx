@@ -70,6 +70,22 @@ export async function Footer() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                href="/locations"
+                className="transition-colors hover:text-white"
+              >
+                {t("locationCommon.locations")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/industries"
+                className="transition-colors hover:text-white"
+              >
+                {t("industryCommon.industries")}
+              </Link>
+            </li>
           </ul>
         </div>
 
