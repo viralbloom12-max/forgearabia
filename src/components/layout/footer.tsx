@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import { services } from "@/config/services";
 import { mainNav } from "@/config/navigation";
 import { whatsappUrl } from "@/lib/whatsapp";
+import { Link } from "@/i18n/navigation";
 
 export async function Footer() {
   const t = await getTranslations();
@@ -60,12 +61,12 @@ export async function Footer() {
           <ul className="mt-5 space-y-3 text-sm text-silver-muted">
             {mainNav.map((item) => (
               <li key={item.key}>
-                <a
+                <Link
                   href={item.href}
                   className="transition-colors hover:text-white"
                 >
                   {t(`nav.${item.key}`)}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -79,12 +80,12 @@ export async function Footer() {
           <ul className="mt-5 grid grid-cols-1 gap-3 text-sm text-silver-muted sm:grid-cols-2">
             {services.map((s) => (
               <li key={s.slug}>
-                <a
-                  href="#services"
+                <Link
+                  href={`/services/${s.slug}`}
                   className="transition-colors hover:text-white"
                 >
                   {t(`services.${s.key}.title`)}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

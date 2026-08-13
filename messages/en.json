@@ -10,16 +10,20 @@
       "learnMore": "Learn more"
     }
   },
+  "home": {
+    "metaTitle": "Premium Digital Transformation Partner in Saudi Arabia",
+    "metaDescription": "Forge Arabia helps Saudi businesses grow with website development, e-commerce, SEO, Google Ads, and AI automation. Delivered in Arabic and English from Al Qassim."
+  },
   "nav": {
     "about": "About",
     "services": "Services",
     "whyUs": "Why Us",
     "process": "Process",
     "contact": "Contact",
-    "cta": "Request a Proposal"
+    "cta": "Start Your Project"
   },
   "hero": {
-    "badge": "Digital Transformation Partner in Al Qassim",
+    "badge": "Saudi Digital Transformation Partner",
     "title": "Engineering digital growth for Saudi businesses",
     "subtitle": "We bring together web technology, performance marketing, and AI automation, backed by a real understanding of the Saudi market, so your brand grows with confidence.",
     "pillars": {
@@ -34,21 +38,21 @@
   "trust": {
     "lead": "A digital partner your business can rely on",
     "items": {
-      "saudi": {
-        "title": "Rooted in Saudi Arabia",
-        "text": "Based in Ar Rass, Al Qassim, working with businesses across the Kingdom."
+      "saudiTeam": {
+        "title": "Saudi-based team",
+        "text": "A team based in Saudi Arabia that understands how local businesses and customers operate."
       },
       "bilingual": {
-        "title": "Arabic and English",
-        "text": "Every website, campaign, and brand delivered fluently in both languages."
+        "title": "Arabic and English delivery",
+        "text": "Websites, campaigns, and brands delivered fluently in both languages."
       },
-      "vision": {
-        "title": "Aligned with Vision 2030",
-        "text": "Digital work that supports the move toward a connected, diversified economy."
+      "custom": {
+        "title": "Custom solutions",
+        "text": "Built around your business goals, not forced into a ready-made template."
       },
-      "senior": {
-        "title": "Senior team, direct access",
-        "text": "You work with the people building your project, not a call center."
+      "expertise": {
+        "title": "Technology and marketing expertise",
+        "text": "Engineering and marketing skills under one roof, working together on your growth."
       }
     }
   },
@@ -224,6 +228,217 @@
       "errorContact": "Please add an email or phone number so we can reach you.",
       "errorMessage": "Please tell us a little about your project.",
       "prefillIntro": "New project enquiry from the Forge Arabia website"
+    }
+  },
+  "serviceCommon": {
+    "home": "Home",
+    "services": "Services",
+    "includesTitle": "What is included",
+    "benefitsTitle": "The difference it makes",
+    "faqTitle": "Frequently asked questions",
+    "relatedTitle": "Explore other services",
+    "ctaTitle": "Ready to start?",
+    "ctaBody": "Tell us about your business and we will put together a clear plan and quote, with no pressure.",
+    "ctaPrimary": "Start Your Project",
+    "ctaSecondary": "Chat on WhatsApp",
+    "overviewMetaTitle": "Digital Services in Saudi Arabia",
+    "overviewMetaDescription": "Website development, e-commerce, SEO, Google Ads, AI automation, branding, and UI/UX design for Saudi businesses, delivered in Arabic and English.",
+    "overviewEyebrow": "Services",
+    "overviewTitle": "Digital services built for Saudi businesses",
+    "overviewIntro": "Everything you need to build, launch, and grow online, delivered to a premium standard in Arabic and English."
+  },
+  "serviceDetail": {
+    "websiteDevelopment": {
+      "metaTitle": "Website Development in Saudi Arabia",
+      "metaDescription": "Custom, fast, bilingual website development for Saudi businesses. Built in Arabic and English, SEO ready, and designed to convert visitors into customers.",
+      "h1": "Website Development in Saudi Arabia",
+      "tagline": "Custom, fast, and secure websites that represent your brand and turn visitors into customers.",
+      "intro": "Your website is often the first impression a customer has of your business. We design and build custom websites that load quickly, work on every device, and are made in both Arabic and English from the start.",
+      "includes": [
+        { "title": "Custom design", "text": "A design shaped around your brand and audience, not a recycled template." },
+        { "title": "Arabic and English", "text": "Full bilingual builds with proper right to left support for Arabic." },
+        { "title": "Built for speed", "text": "Clean, modern code and optimized images for fast loading and strong Core Web Vitals." },
+        { "title": "SEO ready", "text": "Correct structure, headings, and metadata so your site is ready to rank from day one." }
+      ],
+      "benefits": [
+        { "title": "A stronger first impression", "text": "A premium site builds trust before a customer ever contacts you." },
+        { "title": "More enquiries", "text": "Clear structure and calls to action guide visitors toward getting in touch." },
+        { "title": "Easy to grow", "text": "A solid foundation you can extend with new pages, services, and features." }
+      ],
+      "faqs": [
+        { "q": "How long does a website take?", "a": "Most business websites take three to six weeks depending on the number of pages and features. We give you a clear timeline before we start." },
+        { "q": "Will my website work in Arabic?", "a": "Yes. We build in Arabic and English with full right to left support, so both versions feel natural." },
+        { "q": "Can I update the site myself?", "a": "Yes. We can build on a content system that lets your team edit text and images without a developer." },
+        { "q": "Do you provide hosting?", "a": "We help you set up fast, reliable hosting and can manage it for you if you prefer." }
+      ]
+    },
+    "ecommerceDevelopment": {
+      "metaTitle": "E-Commerce Development in Saudi Arabia",
+      "metaDescription": "E-commerce development for Saudi businesses. Bilingual online stores with local payments, smooth checkout, and easy management, built to sell.",
+      "h1": "E-Commerce Development in Saudi Arabia",
+      "tagline": "Online stores designed to sell, with smooth checkout, trusted payments, and easy management.",
+      "intro": "A good online store does more than list products. We build e-commerce experiences that make buying simple, support local payment methods, and give your team the tools to manage orders with confidence.",
+      "includes": [
+        { "title": "Store design and build", "text": "A clean, branded storefront designed to guide shoppers from browsing to checkout." },
+        { "title": "Local payments", "text": "Support for the payment methods Saudi shoppers expect, including mada and card options." },
+        { "title": "Product and order management", "text": "An admin your team can actually use to manage products, stock, and orders." },
+        { "title": "Bilingual storefront", "text": "Arabic and English shopping experiences with full right to left support." }
+      ],
+      "benefits": [
+        { "title": "Sell around the clock", "text": "A store that takes orders while your team is offline." },
+        { "title": "Fewer abandoned carts", "text": "A smooth, trusted checkout keeps buyers moving to purchase." },
+        { "title": "Room to scale", "text": "Add products, categories, and features as your business grows." }
+      ],
+      "faqs": [
+        { "q": "Which platform do you use?", "a": "We choose the right platform for your needs, from Salla and Zid to custom builds, and explain the trade offs clearly." },
+        { "q": "Can you handle payments and shipping?", "a": "Yes. We set up local payment gateways and connect shipping options that suit your products." },
+        { "q": "Can you move my existing store?", "a": "Yes. We can migrate products, customers, and content from your current store." },
+        { "q": "Will it work on mobile?", "a": "Every store we build is designed mobile first, since most Saudi shoppers buy on their phones." }
+      ]
+    },
+    "seo": {
+      "metaTitle": "SEO and Local SEO in Saudi Arabia",
+      "metaDescription": "SEO and local SEO for Saudi businesses. Rank on Google in Arabic and English, from national keywords to local searches in your city.",
+      "h1": "SEO and Local SEO in Saudi Arabia",
+      "tagline": "Get found on Google across Saudi Arabia, from national searches to customers in your own city.",
+      "intro": "Most buying journeys start with a search. We help your business appear when people look for what you offer, whether they are searching across the Kingdom or in a specific city like Riyadh, Jeddah, or Buraidah.",
+      "includes": [
+        { "title": "Technical SEO", "text": "A clean, fast, crawlable site that search engines can understand." },
+        { "title": "Keyword and content strategy", "text": "Targeting the terms your customers actually search, in Arabic and English." },
+        { "title": "Local SEO", "text": "Google Business Profile and local signals so you show up in city and map searches." },
+        { "title": "Clear reporting", "text": "Simple reports on rankings, traffic, and enquiries, not vanity numbers." }
+      ],
+      "benefits": [
+        { "title": "Traffic that lasts", "text": "Unlike ads, strong SEO keeps bringing visitors after the work is done." },
+        { "title": "Qualified visitors", "text": "People searching for your service are already close to a decision." },
+        { "title": "Local visibility", "text": "Show up where nearby customers are looking." }
+      ],
+      "faqs": [
+        { "q": "How long does SEO take?", "a": "SEO is a medium term investment. Early gains can appear within a few months, with stronger results building over time." },
+        { "q": "Do you do Arabic SEO?", "a": "Yes. We optimize for Arabic and English searches, which behave differently and need separate care." },
+        { "q": "Can you help with local rankings?", "a": "Yes. Local SEO is a core focus, including Google Business Profile and city level targeting." },
+        { "q": "Do you guarantee first place?", "a": "No honest agency can guarantee a specific ranking. We focus on steady, real improvement you can measure." }
+      ]
+    },
+    "digitalMarketing": {
+      "metaTitle": "Digital Marketing in Saudi Arabia",
+      "metaDescription": "Digital marketing for Saudi businesses. Social media, content, and campaigns in Arabic and English that build your brand and bring in qualified leads.",
+      "h1": "Digital Marketing in Saudi Arabia",
+      "tagline": "Content, social, and campaigns that build your brand and bring in qualified leads.",
+      "intro": "Digital marketing works best when every piece points in the same direction. We plan and run campaigns across the channels your customers use, with content and messaging made for the Saudi market.",
+      "includes": [
+        { "title": "Marketing strategy", "text": "A clear plan tied to your goals, audience, and budget." },
+        { "title": "Social media management", "text": "Consistent, on brand content for the platforms that matter to you." },
+        { "title": "Content creation", "text": "Arabic and English content, from posts to campaigns, that sounds human." },
+        { "title": "Campaign management", "text": "Planning, running, and refining campaigns against real results." }
+      ],
+      "benefits": [
+        { "title": "A recognizable brand", "text": "A consistent presence keeps your business front of mind." },
+        { "title": "Steady enquiries", "text": "Campaigns designed to bring in leads, not just likes." },
+        { "title": "Clear direction", "text": "One plan instead of scattered, one off posts." }
+      ],
+      "faqs": [
+        { "q": "Which platforms do you cover?", "a": "We focus on the platforms your audience actually uses, commonly Instagram, TikTok, Snapchat, and LinkedIn, and advise where your effort is best spent." },
+        { "q": "Do you create the content?", "a": "Yes. We plan and produce the content in Arabic and English, matched to your brand." },
+        { "q": "Can you work with our team?", "a": "Yes. We can lead the work or support your in house team, whichever fits." },
+        { "q": "How do you measure success?", "a": "We agree on the metrics that matter to your business up front, usually leads, reach, and engagement quality." }
+      ]
+    },
+    "googleAds": {
+      "metaTitle": "Google Ads and PPC Management in Saudi Arabia",
+      "metaDescription": "Google Ads and PPC management for Saudi businesses. Campaigns built for return, with clear tracking and reporting, in Arabic and English.",
+      "h1": "Google Ads and PPC in Saudi Arabia",
+      "tagline": "Paid campaigns managed for return, putting your budget in front of buyers ready to act.",
+      "intro": "Paid search puts your business in front of people at the exact moment they are looking to buy. We plan, run, and refine Google Ads campaigns focused on return, not just clicks.",
+      "includes": [
+        { "title": "Campaign setup", "text": "Properly structured campaigns targeting the right keywords and locations." },
+        { "title": "Ad copy and creative", "text": "Clear, compelling ads written in Arabic and English." },
+        { "title": "Conversion tracking", "text": "Correct tracking so we know which clicks turn into enquiries and sales." },
+        { "title": "Ongoing optimization", "text": "Regular adjustments to lower cost and improve results over time." }
+      ],
+      "benefits": [
+        { "title": "Fast visibility", "text": "Appear at the top of search results quickly." },
+        { "title": "Budget control", "text": "Spend only on the clicks and audiences that matter." },
+        { "title": "Measurable return", "text": "Clear reporting on cost per lead and return on spend." }
+      ],
+      "faqs": [
+        { "q": "How much should I spend?", "a": "It depends on your market and goals. We recommend a starting budget and adjust based on results." },
+        { "q": "When will I see results?", "a": "Google Ads can drive traffic and enquiries within days of launch, then improve as we optimize." },
+        { "q": "Do you manage the budget?", "a": "Yes. We manage your ad spend carefully and report on exactly where it goes." },
+        { "q": "Can you run Arabic campaigns?", "a": "Yes. We build campaigns and ad copy in Arabic and English to reach the right audience." }
+      ]
+    },
+    "aiAutomation": {
+      "metaTitle": "AI Automation for Saudi Businesses",
+      "metaDescription": "Practical AI automation for Saudi businesses. Automate WhatsApp and website chat, lead capture, bookings, and follow ups in Arabic and English.",
+      "h1": "AI Automation for Saudi Businesses",
+      "tagline": "Automate replies, lead handling, and repetitive tasks so your team can focus on customers.",
+      "intro": "AI is only worth it when it saves real time. We build practical automations that handle the repetitive work your team does every day, from answering common questions to capturing and routing leads.",
+      "includes": [
+        { "title": "Chat automation", "text": "WhatsApp and website chat that answers common questions instantly, in Arabic and English." },
+        { "title": "Lead capture and routing", "text": "Enquiries captured, organized, and sent to the right person automatically." },
+        { "title": "Workflow automation", "text": "Booking, reminders, follow ups, and reporting that run on their own." },
+        { "title": "Integration", "text": "Automations connected to the tools your business already uses." }
+      ],
+      "benefits": [
+        { "title": "Faster responses", "text": "Customers get answers immediately, at any hour." },
+        { "title": "Less busywork", "text": "Your team spends time on work that needs a human." },
+        { "title": "Nothing slips through", "text": "Every lead is captured and followed up." }
+      ],
+      "faqs": [
+        { "q": "Is this hard to set up?", "a": "We handle the setup and keep it simple. You tell us the tasks, we build the automation." },
+        { "q": "Will it sound robotic?", "a": "No. We design responses to match your brand voice in Arabic and English, and hand over to a person when needed." },
+        { "q": "What can be automated?", "a": "Common questions, lead capture, bookings, reminders, follow ups, and routine reporting are good starting points." },
+        { "q": "Does it work with WhatsApp?", "a": "Yes. WhatsApp is one of the most effective channels for Saudi businesses, and a common place to start." }
+      ]
+    },
+    "branding": {
+      "metaTitle": "Branding and Digital Design in Saudi Arabia",
+      "metaDescription": "Branding and digital design for Saudi businesses. Bilingual brand identity, design systems, and marketing visuals that look premium and consistent.",
+      "h1": "Branding and Digital Design in Saudi Arabia",
+      "tagline": "Identity, visuals, and design systems that make your business look established and premium.",
+      "intro": "Strong branding makes a business feel trustworthy and premium before a word is read. We create identities and design systems that look consistent everywhere, from your logo to your website and social media.",
+      "includes": [
+        { "title": "Brand identity", "text": "Logo, colors, and typography that fit your business and market." },
+        { "title": "Design system", "text": "Clear guidelines so your brand stays consistent across every channel." },
+        { "title": "Marketing visuals", "text": "Templates and assets for social media, ads, and print." },
+        { "title": "Bilingual design", "text": "A visual identity that works in both Arabic and English." }
+      ],
+      "benefits": [
+        { "title": "Instant credibility", "text": "A polished brand signals quality and seriousness." },
+        { "title": "Consistency everywhere", "text": "One clear look across every touchpoint." },
+        { "title": "Easier marketing", "text": "Ready made templates make future content faster to produce." }
+      ],
+      "faqs": [
+        { "q": "Do you design in Arabic?", "a": "Yes. We design identities that work in Arabic and English, including bilingual logos and typography." },
+        { "q": "Can you refresh our existing brand?", "a": "Yes. We can refine and modernize your current identity or build a new one." },
+        { "q": "What do I receive?", "a": "You receive your logo files, brand guidelines, and the assets your team needs to use the brand." },
+        { "q": "Do you design social media templates?", "a": "Yes. We provide templates so your ongoing content stays on brand and easy to create." }
+      ]
+    },
+    "uiUx": {
+      "metaTitle": "UI/UX Design in Saudi Arabia",
+      "metaDescription": "UI/UX design for Saudi businesses. User focused, bilingual interface design with right to left support, clear journeys, and prototypes.",
+      "h1": "UI/UX Design in Saudi Arabia",
+      "tagline": "Interfaces designed around your customers: clear, elegant, and easy to use.",
+      "intro": "Good design is not just how something looks, it is how easily people can use it. We design websites, apps, and products that feel intuitive, guiding users toward the actions that matter to your business.",
+      "includes": [
+        { "title": "UX research and structure", "text": "Understanding your users and mapping clear, logical journeys." },
+        { "title": "Interface design", "text": "Clean, elegant screens that reflect your brand." },
+        { "title": "Prototypes", "text": "Interactive prototypes so you can see and test before building." },
+        { "title": "Bilingual and RTL design", "text": "Interfaces designed to work in Arabic and English, including right to left layouts." }
+      ],
+      "benefits": [
+        { "title": "Higher conversions", "text": "Clear journeys move more users toward action." },
+        { "title": "Less confusion", "text": "Intuitive design reduces drop off and support requests." },
+        { "title": "A premium feel", "text": "Considered design makes your product feel trustworthy." }
+      ],
+      "faqs": [
+        { "q": "What is the difference between UI and UX?", "a": "UX is how a product is structured and how it works. UI is how it looks. We handle both together." },
+        { "q": "Do you design for Arabic users?", "a": "Yes. We design for Arabic and English, including proper right to left layouts and typography." },
+        { "q": "Can you design an app?", "a": "Yes. We design web and mobile app interfaces, with prototypes you can test." },
+        { "q": "Do you work with our developers?", "a": "Yes. We deliver clear designs and specs your developers can build from, or we can build it too." }
+      ]
     }
   },
   "footer": {

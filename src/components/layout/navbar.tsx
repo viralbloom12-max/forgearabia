@@ -54,21 +54,21 @@ export function Navbar() {
 
         <div className="hidden items-center gap-1 lg:flex">
           {mainNav.map((item) => (
-            <a
+            <Link
               key={item.key}
               href={item.href}
               className="rounded-full px-4 py-2 text-sm font-medium text-silver transition-colors hover:text-white"
             >
               {t(item.key)}
-            </a>
+            </Link>
           ))}
         </div>
 
         <div className="hidden items-center gap-3 lg:flex">
           <LocaleSwitcher />
-          <a href="#contact" className={buttonVariants({ size: "md" })}>
+          <Link href="/#contact" className={buttonVariants({ size: "md" })}>
             {t("cta")}
-          </a>
+          </Link>
         </div>
 
         <div className="flex items-center gap-2 lg:hidden">
@@ -94,22 +94,22 @@ export function Navbar() {
       >
         <div className="container-page flex flex-col gap-1 py-6">
           {mainNav.map((item) => (
-            <a
+            <Link
               key={item.key}
               href={item.href}
               onClick={() => setOpen(false)}
               className="rounded-xl px-4 py-3 text-base font-medium text-silver hover:bg-white/[0.04] hover:text-white"
             >
               {t(item.key)}
-            </a>
+            </Link>
           ))}
-          <a
-            href="#contact"
+          <Link
+            href="/#contact"
             onClick={() => setOpen(false)}
             className={buttonVariants({ size: "lg", className: "mt-3 w-full" })}
           >
             {t("cta")}
-          </a>
+          </Link>
         </div>
       </div>
     </header>

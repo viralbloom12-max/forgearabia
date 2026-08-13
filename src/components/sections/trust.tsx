@@ -1,15 +1,15 @@
 import { getTranslations } from "next-intl/server";
-import { MapPin, Languages, Landmark, Users } from "lucide-react";
+import { MapPin, Languages, Blocks, Layers } from "lucide-react";
 import { StaggerGroup, StaggerItem, Reveal } from "@/components/motion/reveal";
 
 export async function Trust() {
   const t = await getTranslations("trust");
 
   const items = [
-    { icon: MapPin, key: "saudi" },
+    { icon: MapPin, key: "saudiTeam" },
     { icon: Languages, key: "bilingual" },
-    { icon: Landmark, key: "vision" },
-    { icon: Users, key: "senior" },
+    { icon: Blocks, key: "custom" },
+    { icon: Layers, key: "expertise" },
   ] as const;
 
   return (

@@ -1,4 +1,6 @@
-import { setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+import { setRequestLocale, getTranslations } from "next-intl/server";
+import { buildMetadata } from "@/lib/seo";
 import { Hero } from "@/components/sections/hero";
 import { Trust } from "@/components/sections/trust";
 import { About } from "@/components/sections/about";
@@ -10,6 +12,21 @@ import { AiAutomation } from "@/components/sections/ai-automation";
 import { PortfolioRequest } from "@/components/sections/portfolio-request";
 import { GrowthCta } from "@/components/sections/growth-cta";
 import { Contact } from "@/components/sections/contact";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "home" });
+  return buildMetadata({
+    locale,
+    path: "",
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+  });
+}
 
 export default async function HomePage({
   params,
