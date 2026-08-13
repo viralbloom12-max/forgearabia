@@ -4,9 +4,9 @@ export const siteConfig = {
   url: "https://forgearabia.com",
   // Contact
   email: "info@forgearabia.com",
-  phone: "+966 56 745 1061",
-  phoneRaw: "+966567451061",
-  whatsapp: "966567451061",
+  phone: "+966 57 008 6675",
+  phoneRaw: "+966570086675",
+  whatsapp: "966570086675",
   // Location (NAP for LocalBusiness schema)
   address: {
     city: "Ar Rass",
