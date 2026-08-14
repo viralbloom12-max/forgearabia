@@ -73,6 +73,10 @@ export async function Hero() {
               </a>
             </div>
           </Reveal>
+
+          <Reveal delay={0.28}>
+            <p className="mt-5 text-sm text-silver-faint">{t("trustline")}</p>
+          </Reveal>
         </div>
 
         {/* Four pillars: the core of what Forge Arabia combines */}
