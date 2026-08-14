@@ -27,8 +27,10 @@ const config: Config = {
         },
         silver: {
           DEFAULT: "#C9CED8",
-          muted: "#8A90A0",
-          faint: "#5B6172",
+          muted: "#9AA0B0",
+          // Lightened from #5B6172 so small meta text meets WCAG AA (about 5:1
+          // on the navy background) instead of failing at roughly 3:1.
+          faint: "#858B9B",
         },
       },
       fontFamily: {

@@ -16,9 +16,9 @@ export async function Trust() {
     <section className="relative border-y border-silver/10 bg-navy-950/40 py-14">
       <div className="container-page">
         <Reveal>
-          <p className="text-center text-sm font-medium uppercase tracking-[0.16em] text-silver-faint">
+          <h2 className="text-center text-sm font-medium uppercase tracking-[0.16em] text-silver-muted">
             {t("lead")}
-          </p>
+          </h2>
         </Reveal>
         <StaggerGroup className="mt-10 grid gap-x-8 gap-y-8 sm:grid-cols-2 lg:grid-cols-4">
           {items.map(({ icon: Icon, key }) => (

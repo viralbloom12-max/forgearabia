@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { WhatsAppButton } from "@/components/layout/whatsapp-button";
+import { Analytics } from "@/components/analytics/analytics";
 import "@/styles/globals.css";
 
 export function generateStaticParams() {
@@ -80,10 +81,17 @@ export default async function LocaleLayout({
     >
       <body className={cn(locale === "ar" ? "font-arabic" : "font-sans")}>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <a
+            href="#main"
+            className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-brand-gradient focus:px-5 focus:py-2.5 focus:text-sm focus:font-medium focus:text-white"
+          >
+            {locale === "ar" ? "تخطَّ إلى المحتوى" : "Skip to content"}
+          </a>
           <Navbar />
-          <main>{children}</main>
+          <main id="main">{children}</main>
           <Footer />
           <WhatsAppButton />
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>

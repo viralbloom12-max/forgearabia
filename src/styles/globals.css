@@ -21,6 +21,20 @@
     @apply bg-electric/30 text-white;
   }
 
+  /* Consistent, visible keyboard focus for interactive elements. */
+  a:focus-visible,
+  button:focus-visible,
+  summary:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 2px solid rgba(0, 184, 255, 0.75);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+
   /* Respect reduced motion for all premium animations */
   @media (prefers-reduced-motion: reduce) {
     *,

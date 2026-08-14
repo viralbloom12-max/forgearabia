@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { Send, CheckCircle2, MessageCircle, Loader2 } from "lucide-react";
 import { services } from "@/config/services";
 import { whatsappUrl } from "@/lib/whatsapp";
+import { track } from "@/lib/analytics";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -79,6 +80,7 @@ export function LeadForm() {
         body: JSON.stringify({ ...fields, company, locale }),
       });
       if (res.ok) {
+        track("generate_lead", { method: "form", service: fields.service || "unspecified" });
         setStatus("success");
       } else {
         setStatus("error");

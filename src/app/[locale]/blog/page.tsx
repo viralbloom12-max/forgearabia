@@ -8,6 +8,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { StaggerGroup, StaggerItem } from "@/components/motion/reveal";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { JsonLd } from "@/components/seo/json-ld";
+import { ServiceCta } from "@/components/sections/service-cta";
 import { BlogCover } from "@/components/blog/blog-cover";
 import { Link } from "@/i18n/navigation";
 import { buildMetadata, breadcrumbLd } from "@/lib/seo";
@@ -105,6 +106,8 @@ export default async function BlogIndexPage({
           </StaggerGroup>
         )}
       </Section>
+
+      <ServiceCta />
     </>
   );
 }
